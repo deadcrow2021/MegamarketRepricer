@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(190, 190, 190);
+    box-shadow: 0px -2px 20px 5px;
+}
+
+.header_content {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_title {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.flex_filler {
+    flex: 1;
+}
+
+.content {
+    margin: 20px;
+}
