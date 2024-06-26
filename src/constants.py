@@ -12,4 +12,4 @@ path = Path(application_path)
 
 WORK_DIR = path.parent.absolute()
 
-prices_file = WORK_DIR / 'prices' / 'prices.xlsx'
+prices_dir = WORK_DIR / 'prices'

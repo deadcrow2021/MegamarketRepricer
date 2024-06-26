@@ -26,3 +26,50 @@ body {
 .content {
     margin: 20px;
 }
+
+.search_block {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    padding: 20px;
+}
+
+.search_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#search_input_field {
+    height: 24px;
+    font-size: 20px;
+    width: 340px;
+}
+
+#submit_search_button {
+    height: 30px;
+    font-size: 20px;
+}
+
+#search_result {
+    margin: 10px 0;
+    height: 120px;
+    width: 350px;
+    border: 1px solid #ccc;
+    font:16px;
+    overflow: auto;
+}
+
+#search_result p {
+    margin: 2px;
+    padding: 5px 2px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#search_result p:hover {
+    background-color: #ccc;
+}
